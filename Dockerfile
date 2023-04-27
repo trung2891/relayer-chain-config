@@ -15,7 +15,7 @@ RUN apt-get install git
 RUN git clone https://github.com/cosmos/relayer.git && cd relayer && git checkout v2.3.0 && make install
 
 # Copy configs
-ADD configs /home/rly/configs
+ADD chains /home/rly/configs
 
 # Copy pahts
 ADD paths /home/rly/paths
