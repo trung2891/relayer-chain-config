@@ -1,6 +1,7 @@
 #!/bin/sh
-export "$(grep -vE "^(#.*|\s*)$" .env)"
+echo "start run relayer"
 
+export "$(grep -vE "^(#.*|\s*)$" .env)"
 
 rly config init
 rly chains add-dir configs
