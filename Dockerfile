@@ -27,4 +27,4 @@ COPY ./run-relayer.sh /home/rly/
 COPY .env /home/rly/
 
 # Set permission
-RUN chmod +x ./run-relayer.sh
+# RUN chmod +x ./run-relayer.sh

@@ -1,12 +1,12 @@
 {
     "chain_1": {
     "chain_name": "Oraichain",
-    "client_id": "07-tendermint-90",
-    "connection_id": "connection-55"
+    "client_id": "07-tendermint-98",
+    "connection_id": "connection-64"
   },
   "chain_2": {
     "chain_name": "Oraichain-testnet",
-    "client_id": "07-tendermint-103",
-    "connection_id": "connection-105"
+    "client_id": "07-tendermint-112",
+    "connection_id": "connection-115"
   }
 }
